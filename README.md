@@ -205,3 +205,29 @@ chmod +x bin/terraform
 cp bin/terraform ~/bin/  # или в другую удобную директорию
 ```
 
+### Задание 6 1
+
+1. `Создаем, запускаем и сразу копируем файл`
+```
+# Запускаем с бесконечным циклом
+docker run -d --name terraform-container \
+  --entrypoint sh \
+  hashicorp/terraform:latest \
+  -c "while true; do sleep 1; done"
+
+# Копируем файл
+docker cp terraform-container:/bin/terraform ./terraform
+
+# Останавливаем и удаляем
+docker stop terraform-container && docker rm terraform-container
+
+```
+
+
+2. `Запускаю анализ dive`
+```
+chmod +x ./terraform
+./terraform version
+```
+
+![11](https://github.com/Foxbeerxxx/practice_dockernew/blob/main/img/img11.png)
