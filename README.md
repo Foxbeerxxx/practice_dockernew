@@ -187,25 +187,21 @@ tar -tf f03fd3159750ff999526950569b5bc04dab003e98d85a7155b153abff6f9678a/layer.t
 ![9](https://github.com/Foxbeerxxx/practice_docker/blob/main/img/img9.png)
 
 4. `Извлечение бинарного файла`
+
 ```
 tar -xvf f03fd3159750ff999526950569b5bc04dab003e98d85a7155b153abff6f9678a/layer.tar bin/terraform
 ```
 
 5. `Проверка работоспособности`
+
 ```
 chmod +x bin/terraform
 ./bin/terraform version
 ```
 ![10](https://github.com/Foxbeerxxx/practice_docker/blob/main/img/img10.png)
 
-6. 
+6. `Копирование на локальную машину`
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+cp bin/terraform ~/bin/  # или в другую удобную директорию
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
