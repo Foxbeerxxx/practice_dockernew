@@ -184,7 +184,7 @@ tar -tf 67703911f78805cbb6b6d7a0f3d06d55a59eb04d8bdd91e9827214a9a3fd7b37/layer.t
 tar -tf f03fd3159750ff999526950569b5bc04dab003e98d85a7155b153abff6f9678a/layer.tar | grep "bin/terraform"
 
 ```
-![9](https://github.com/Foxbeerxxx/practice_docker/blob/main/img/img9.png)
+![9](https://github.com/Foxbeerxxx/practice_dockernew/blob/main/img/img9.png)
 
 4. `Извлечение бинарного файла`
 
@@ -198,7 +198,7 @@ tar -xvf f03fd3159750ff999526950569b5bc04dab003e98d85a7155b153abff6f9678a/layer.
 chmod +x bin/terraform
 ./bin/terraform version
 ```
-![10](https://github.com/Foxbeerxxx/practice_docker/blob/main/img/img10.png)
+![10](https://github.com/Foxbeerxxx/practice_dockernew/blob/main/img/img10.png)
 
 6. `Копирование на локальную машину`
 ```
