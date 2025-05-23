@@ -224,7 +224,7 @@ docker stop terraform-container && docker rm terraform-container
 ```
 
 
-2. `Запускаю анализ dive`
+2. `Проверяем файл и мотрим вывод`
 ```
 chmod +x ./terraform
 ./terraform version
